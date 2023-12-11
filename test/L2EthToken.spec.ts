@@ -87,6 +87,20 @@ describe("L2EthToken TEST", () => {
             .to.emit(l2EthToken, "Withdrawal").withArgs(l2EthToken.address, walletFrom.address, amountToWithdraw);
 
         await expect(l2EthToken.balanceOf(l2EthToken.address)).to.be.eq(initialBalance.sub(amountToWithdraw));
+    });
 
-    })
+    it("should burn msg.value and emit WithdrawalWithMessage event", async () => {
+        const initialBalance = await l2EthToken.balanceOf(l2EthToken.address);
+        const amountToWithdraw = ethers.utils.parseEther("1.0");
+        const additionalData = ethers.utils.formatBytes32String("Test additional data");
+        await walletFrom.sendTransaction({
+            to: l2EthToken.address,
+            value: amountToWithdraw,
+        });
+
+        await expect(l2EthToken.withdrawWithMessage(walletFrom.address, additionalData))
+            .to.emit(l2EthToken, "Withdrawal").withArgs(l2EthToken.address, walletFrom.address, amountToWithdraw, additionalData);
+
+        await expect(l2EthToken.balanceOf(l2EthToken.address)).to.be.eq(initialBalance.sub(amountToWithdraw));
+    });
 })
