@@ -1,0 +1,1550 @@
+2023-12-13T18:52:42.526090Z  INFO era_test_node::fork: Starting network with chain id: L2ChainId(260)
+2023-12-13T18:52:42.540958Z  INFO era_test_node: Rich Accounts
+2023-12-13T18:52:42.541002Z  INFO era_test_node: =============
+2023-12-13T18:52:42.541045Z  INFO era_test_node: Account #0: 0x36615Cf349d7F6344891B1e7CA7C72883F5dc049 (1_000_000_000_000 ETH)
+2023-12-13T18:52:42.541066Z  INFO era_test_node: Private Key: 0x7726827caac94a7f9e1b160f7ea819f172f7b6f9d2a97f992c38edeab82d4110
+2023-12-13T18:52:42.541079Z  INFO era_test_node: 
+2023-12-13T18:52:42.541096Z  INFO era_test_node: Account #1: 0xa61464658AfeAf65CccaaFD3a512b69A83B77618 (1_000_000_000_000 ETH)
+2023-12-13T18:52:42.541115Z  INFO era_test_node: Private Key: 0xac1e735be8536c6534bb4f17f06f6afc73b2b5ba84ac2cfb12f7461b20c0bbe3
+2023-12-13T18:52:42.541129Z  INFO era_test_node: 
+2023-12-13T18:52:42.541150Z  INFO era_test_node: Account #2: 0x0D43eB5B8a47bA8900d84AA36656c92024e9772e (1_000_000_000_000 ETH)
+2023-12-13T18:52:42.541165Z  INFO era_test_node: Private Key: 0xd293c684d884d56f8d6abd64fc76757d3664904e309a0645baf8522ab6366d9e
+2023-12-13T18:52:42.541183Z  INFO era_test_node: 
+2023-12-13T18:52:42.541199Z  INFO era_test_node: Account #3: 0xA13c10C0D5bd6f79041B9835c63f91de35A15883 (1_000_000_000_000 ETH)
+2023-12-13T18:52:42.541218Z  INFO era_test_node: Private Key: 0x850683b40d4a740aa6e745f889a6fdc8327be76e122f5aba645a5b02d0248db8
+2023-12-13T18:52:42.541231Z  INFO era_test_node: 
+2023-12-13T18:52:42.541252Z  INFO era_test_node: Account #4: 0x8002cD98Cfb563492A6fB3E7C8243b7B9Ad4cc92 (1_000_000_000_000 ETH)
+2023-12-13T18:52:42.541266Z  INFO era_test_node: Private Key: 0xf12e28c0eb1ef4ff90478f6805b68d63737b7f33abfa091601140805da450d93
+2023-12-13T18:52:42.541285Z  INFO era_test_node: 
+2023-12-13T18:52:42.541301Z  INFO era_test_node: Account #5: 0x4F9133D1d3F50011A6859807C837bdCB31Aaab13 (1_000_000_000_000 ETH)
+2023-12-13T18:52:42.541320Z  INFO era_test_node: Private Key: 0xe667e57a9b8aaa6709e51ff7d093f1c5b73b63f9987e4ab4aa9a5c699e024ee8
+2023-12-13T18:52:42.541333Z  INFO era_test_node: 
+2023-12-13T18:52:42.541354Z  INFO era_test_node: Account #6: 0xbd29A1B981925B94eEc5c4F1125AF02a2Ec4d1cA (1_000_000_000_000 ETH)
+2023-12-13T18:52:42.541368Z  INFO era_test_node: Private Key: 0x28a574ab2de8a00364d5dd4b07c4f2f574ef7fcc2a86a197f65abaec836d1959
+2023-12-13T18:52:42.541387Z  INFO era_test_node: 
+2023-12-13T18:52:42.541405Z  INFO era_test_node: Account #7: 0xedB6F5B4aab3dD95C7806Af42881FF12BE7e9daa (1_000_000_000_000 ETH)
+2023-12-13T18:52:42.541421Z  INFO era_test_node: Private Key: 0x74d8b3a188f7260f67698eb44da07397a298df5427df681ef68c45b34b61f998
+2023-12-13T18:52:42.541435Z  INFO era_test_node: 
+2023-12-13T18:52:42.541456Z  INFO era_test_node: Account #8: 0xe706e60ab5Dc512C36A4646D719b889F398cbBcB (1_000_000_000_000 ETH)
+2023-12-13T18:52:42.541476Z  INFO era_test_node: Private Key: 0xbe79721778b48bcc679b78edac0ce48306a8578186ffcb9f2ee455ae6efeace1
+2023-12-13T18:52:42.541494Z  INFO era_test_node: 
+2023-12-13T18:52:42.541515Z  INFO era_test_node: Account #9: 0xE90E12261CCb0F3F7976Ae611A29e84a6A85f424 (1_000_000_000_000 ETH)
+2023-12-13T18:52:42.541534Z  INFO era_test_node: Private Key: 0x3eb15da85647edd9a1159a4a13b9e7c56877c4eb33f614546d4db06a51868b1c
+2023-12-13T18:52:42.541552Z  INFO era_test_node: 
+2023-12-13T18:52:42.541811Z  INFO era_test_node: ========================================
+2023-12-13T18:52:42.541840Z  INFO era_test_node:   Node is ready at 127.0.0.1:8011
+2023-12-13T18:52:42.541855Z  INFO era_test_node: ========================================
+2023-12-13T18:53:42.243688Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000009001 has been impersonated
+2023-12-13T18:56:29.269788Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000009001 was already impersonated
+2023-12-13T18:57:08.833386Z  INFO era_test_node::node: 
+2023-12-13T18:57:08.833438Z  INFO era_test_node::node: Executing [1m0xb351315701b39a90d3607d8405d4d70c751ae87c0dd825c936b46de9e6c4507b[0m
+2023-12-13T18:57:08.845150Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:08.845191Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:08.845199Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:08.845208Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:08.845215Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:08.845223Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:08.845233Z  INFO era_test_node::node: Gas - Limit: 50_006_914 | Used: 40_393_509 | Refunded: 9_613_405
+2023-12-13T18:57:08.845241Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:08.845247Z  INFO era_test_node::node: 
+2023-12-13T18:57:08.845254Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:08.845261Z  INFO era_test_node::node: 
+2023-12-13T18:57:08.845270Z  INFO era_test_node::node: ==== [1m22 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:08.845277Z  INFO era_test_node::node: 
+2023-12-13T18:57:08.845284Z  INFO era_test_node::node: ==== [1m5 events[0m
+2023-12-13T18:57:08.845890Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:57:08.846259Z  INFO era_test_node::formatter: [34mL1 messenger                              [0m 0x27fe8c0b49f49507b9d4fe5968c9f49edfe5c9df277d433a07a0717ede97638d
+2023-12-13T18:57:08.846565Z  INFO era_test_node::formatter: [34mL1 messenger                              [0m 0x3a36e47291f4201faf137fab081d92295bce2d53be2c6ca68ba82c7faa9ce241, 0x000000000000000000000000000000000000000000000000000000000000800e, 0xdde014c9fea42e01cd5a783360821a099e405c28be5bd78334037d1ca4830dbd
+2023-12-13T18:57:08.846792Z  INFO era_test_node::formatter: [34mKnown code storage                        [0m 0xc94722ff13eacf53547c4741dab5228353a05938ffcdd5d4a2d533ae0e618287, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000000000
+2023-12-13T18:57:08.846970Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:08.847051Z  INFO era_test_node::node: 
+2023-12-13T18:57:08.847064Z  INFO era_test_node::node: 
+2023-12-13T18:57:08.851252Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 has been impersonated
+2023-12-13T18:57:08.927596Z  INFO era_test_node::node: 
+2023-12-13T18:57:08.927645Z  INFO era_test_node::node: Executing [1m0xaa600d93ec271178cb3d8e10e5f5c871105e5265f16b2f969519044ec92e85ac[0m
+2023-12-13T18:57:08.927690Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:08.931238Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:08.931280Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:08.931295Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:08.931310Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:08.931325Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:08.931342Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:08.931362Z  INFO era_test_node::node: Gas - Limit: 665_600 | Used: 665_600 | Refunded: 0
+2023-12-13T18:57:08.931415Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:08.931430Z  INFO era_test_node::node: 
+2023-12-13T18:57:08.931444Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:08.931464Z  INFO era_test_node::node: 
+2023-12-13T18:57:08.931480Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:08.931499Z  INFO era_test_node::node: 
+2023-12-13T18:57:08.931515Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:57:08.931836Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009003
+2023-12-13T18:57:08.931972Z  INFO era_test_node::node: 
+2023-12-13T18:57:08.931997Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.038814Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.038843Z  INFO era_test_node::node: Executing [1m0x35ea5baedb40c7be583c585ba581a88f9dc153233615e8f41bdfcee12a681722[0m
+2023-12-13T18:57:09.041013Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.041032Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.041039Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.041047Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.041055Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.041062Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.041072Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:57:09.041078Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.041086Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.041095Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.041102Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.041111Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.041118Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.041127Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:57:09.041404Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:57:09.041765Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.041863Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.041880Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.044135Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:57:09.103497Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.103540Z  INFO era_test_node::node: Executing [1m0x658e7a91d0037439153229a6a370060c871bb13b1a3f18217b63a653dbf50b0c[0m
+2023-12-13T18:57:09.103563Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.107110Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.107141Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.107181Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.107198Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.107214Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.107230Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.107255Z  INFO era_test_node::node: Gas - Limit: 665_600 | Used: 665_600 | Refunded: 0
+2023-12-13T18:57:09.107270Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.107288Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.107302Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.107321Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.107338Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.107357Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.107372Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:57:09.107601Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009008
+2023-12-13T18:57:09.107744Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.107784Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.207099Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.207131Z  INFO era_test_node::node: Executing [1m0xdc9252c86f8df0b08a0da21ae3ab689b79e7179e3958f9ca33dd95a44abc94cc[0m
+2023-12-13T18:57:09.209300Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.209318Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.209325Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.209333Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.209340Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.209347Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.209357Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:57:09.209364Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.209370Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.209378Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.209385Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.209393Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.209401Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.209409Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:57:09.209713Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:57:09.210018Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.210117Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.210128Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.212321Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:57:09.271060Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.271104Z  INFO era_test_node::node: Executing [1m0xfe8144554d40b7603831ea4505e288293a947c025034221a0c0c6d9b7506cfd5[0m
+2023-12-13T18:57:09.271127Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.274651Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.274700Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.274714Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.274729Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.274745Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.274770Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.274790Z  INFO era_test_node::node: Gas - Limit: 665_600 | Used: 665_600 | Refunded: 0
+2023-12-13T18:57:09.274809Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.274824Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.274841Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.274856Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.274876Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.274890Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.274909Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:57:09.275139Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009004
+2023-12-13T18:57:09.275261Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.275286Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.368402Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.368439Z  INFO era_test_node::node: Executing [1m0x019767fb068b7d850c59e183a3e9e27623054706a0359f18122f99dbc48bedec[0m
+2023-12-13T18:57:09.370862Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.370881Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.370888Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.370896Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.370903Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.370911Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.370921Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:57:09.370928Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.370935Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.370943Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.370951Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.370959Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.370966Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.370974Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:57:09.371248Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:57:09.371578Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.371681Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.371699Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.373909Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:57:09.430506Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.430553Z  INFO era_test_node::node: Executing [1m0xf69d381e5c7b366ba0d92396b4024e34b81a0f868f5ca3996adbb3017e1e15f3[0m
+2023-12-13T18:57:09.430581Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.434530Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.434564Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.434580Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.434596Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.434613Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.434630Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.434651Z  INFO era_test_node::node: Gas - Limit: 665_600 | Used: 665_600 | Refunded: 0
+2023-12-13T18:57:09.434694Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.434736Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.434786Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.434824Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.434847Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.434867Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.434885Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:57:09.435120Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009002
+2023-12-13T18:57:09.435283Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.435322Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.544731Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.544775Z  INFO era_test_node::node: Executing [1m0x2df15ce7d65a3b41bc446a047d343db340480d7e7d81ebf7582f10828b6fb5f0[0m
+2023-12-13T18:57:09.547105Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.547123Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.547133Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.547141Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.547150Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.547158Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.547169Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:57:09.547179Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.547187Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.547194Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.547222Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.547231Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.547239Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.547251Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:57:09.547521Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:57:09.547837Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.547935Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.547955Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.550169Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:57:09.596837Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.596873Z  INFO era_test_node::node: Executing [1m0xf64a85b33baaf53af949c08e5711fcec696db1365ffd0b0f144a9f0525bfcc5a[0m
+2023-12-13T18:57:09.596891Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.599631Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.599672Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.599685Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.599702Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.599716Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.599734Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.599765Z  INFO era_test_node::node: Gas - Limit: 665_600 | Used: 665_600 | Refunded: 0
+2023-12-13T18:57:09.599782Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.599811Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.599827Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.599839Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.599856Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.599867Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.599883Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:57:09.600170Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x000000000000000000000000000000000000000000000000000000000000900a
+2023-12-13T18:57:09.600308Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.600328Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.685576Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.685614Z  INFO era_test_node::node: Executing [1m0x4520a969130a57ed88d10559c20dc061c0f1be64ef085a70b3e0617137628076[0m
+2023-12-13T18:57:09.687810Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.687828Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.687836Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.687844Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.687870Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.687877Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.687889Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:57:09.687897Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.687905Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.687917Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.687925Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.687935Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.687945Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.687952Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:57:09.688231Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:57:09.688570Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.688946Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.688963Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.690998Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:57:09.752642Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.752678Z  INFO era_test_node::node: Executing [1m0x61e8bf538b9d86147798aedc9458376b1d65cd961f674a1581c2ac79a38c6e5e[0m
+2023-12-13T18:57:09.752690Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.754396Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.754414Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.754421Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.754429Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.754436Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.754445Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.754457Z  INFO era_test_node::node: Gas - Limit: 665_600 | Used: 665_600 | Refunded: 0
+2023-12-13T18:57:09.754465Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.754472Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.754482Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.754489Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.754497Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.754505Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.754513Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:57:09.754805Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009005
+2023-12-13T18:57:09.754917Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.754935Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.825554Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.825600Z  INFO era_test_node::node: Executing [1m0x3ee765247182f3d43bd46451bbd4b3924a9d66fe62b671ebdec70b46d5aed8a2[0m
+2023-12-13T18:57:09.827796Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.827814Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.827822Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.827829Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.827837Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.827845Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.827860Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:57:09.827868Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.827876Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.827885Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.827892Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.827901Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.827911Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.827920Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:57:09.828190Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:57:09.828478Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.828576Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.828592Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.830708Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:57:09.876334Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.876370Z  INFO era_test_node::node: Executing [1m0xf8196b8fe387fa6034c2e3e8f833f2dc5a06bd3875ebb1eee2a484c52e4b53f9[0m
+2023-12-13T18:57:09.876388Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.879155Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.879180Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.879192Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.879204Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.879223Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.879238Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:09.879257Z  INFO era_test_node::node: Gas - Limit: 665_600 | Used: 665_600 | Refunded: 0
+2023-12-13T18:57:09.879284Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.879300Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.879310Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.879327Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.879344Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.879360Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.879373Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:57:09.879586Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009009
+2023-12-13T18:57:09.879838Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.879859Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.976267Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.976300Z  INFO era_test_node::node: Executing [1m0x74a882f67d174b8f49c20246c64d59b5779f72ec715c03eb8f71e33422b7fbf3[0m
+2023-12-13T18:57:09.978474Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:09.978495Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:09.978505Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:09.978513Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:09.978521Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.978529Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.978543Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:57:09.978550Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:09.978559Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.978567Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:09.978578Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.978586Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:09.978593Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.978605Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:57:09.978779Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:57:09.979098Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:57:09.979397Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.979421Z  INFO era_test_node::node: 
+2023-12-13T18:57:09.981392Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:57:10.027012Z  INFO era_test_node::node: 
+2023-12-13T18:57:10.027050Z  INFO era_test_node::node: Executing [1m0xfa22b7cc1469008601092782e5f7ea05e015737acf1a42d88eaa25938f17d0c7[0m
+2023-12-13T18:57:10.027068Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:10.029854Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:57:10.029877Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:57:10.029888Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:57:10.029900Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:57:10.029914Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:10.029927Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:57:10.029941Z  INFO era_test_node::node: Gas - Limit: 665_600 | Used: 665_600 | Refunded: 0
+2023-12-13T18:57:10.029975Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:57:10.029986Z  INFO era_test_node::node: 
+2023-12-13T18:57:10.029998Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:57:10.030009Z  INFO era_test_node::node: 
+2023-12-13T18:57:10.030021Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:57:10.030033Z  INFO era_test_node::node: 
+2023-12-13T18:57:10.030045Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:57:10.030219Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009001
+2023-12-13T18:57:10.030321Z  INFO era_test_node::node: 
+2023-12-13T18:57:10.030341Z  INFO era_test_node::node: 
+2023-12-13T18:57:10.036310Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000009001 was already impersonated
+2023-12-13T18:58:09.133615Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.133864Z  INFO era_test_node::node: Executing [1m0x76fb4d8f7d8a2f4a067ab29dbf36e40bbde878dd4cb85e79ab1ec2c65635eea3[0m
+2023-12-13T18:58:09.138360Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.138391Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.138406Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.138422Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.138443Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.138459Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.138483Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:09.138497Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.138516Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.138530Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.138549Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.138566Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.138585Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.138600Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:09.138905Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:09.139236Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.139404Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.139432Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.142480Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:09.204583Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.204625Z  INFO era_test_node::node: Executing [1m0x5ab28cacfbda78abe4d39c57b5a39a856932d81d5fb30c9a2fad60d3a43b5958[0m
+2023-12-13T18:58:09.204647Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.208233Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.208263Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.208277Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.208293Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.208313Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.208328Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.208351Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:09.208369Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.208385Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.208403Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.208417Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.208438Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.208453Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.208472Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:09.208738Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009003
+2023-12-13T18:58:09.208863Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.208889Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.320329Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.320358Z  INFO era_test_node::node: Executing [1m0x430b61e60d9df871671b660285bc366f83e5bfd77fa77fc042592529d751aca0[0m
+2023-12-13T18:58:09.322723Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.322747Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.322755Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.322762Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.322770Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.322778Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.322793Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:09.322800Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.322808Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.322815Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.322822Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.322834Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.322841Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.322848Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:09.323064Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:09.323339Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.323432Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.323463Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.325963Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:09.373144Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.373177Z  INFO era_test_node::node: Executing [1m0x889a1a4faed00078ad3ae5089b40f7214aa8c27c34d4b797eba258f4eac67751[0m
+2023-12-13T18:58:09.373195Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.375960Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.375986Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.375997Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.376009Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.376026Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.376038Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.376057Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:09.376070Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.376099Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.376114Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.376125Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.376141Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.376153Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.376168Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:09.376378Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009008
+2023-12-13T18:58:09.376488Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.376510Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.479589Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.479614Z  INFO era_test_node::node: Executing [1m0xa7811915aabea5b591bb168adf3f3aa993bce747e953cc64e7bc33105037ee48[0m
+2023-12-13T18:58:09.481797Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.481815Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.481822Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.481830Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.481837Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.481846Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.481856Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:09.481866Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.481873Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.481881Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.481891Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.481900Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.481908Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.481915Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:09.482135Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:09.482432Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.482526Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.482542Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.484623Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:09.532689Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.532723Z  INFO era_test_node::node: Executing [1m0xb39bfb3b22574165bab4c0a100ae95cd3331de33f664a005ddf17f10169aa24c[0m
+2023-12-13T18:58:09.532754Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.535504Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.535530Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.535542Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.535554Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.535570Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.535583Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.535602Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:09.535614Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.535644Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.535676Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.535687Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.535705Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.535716Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.535732Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:09.535977Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009004
+2023-12-13T18:58:09.536082Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.536104Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.633270Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.633302Z  INFO era_test_node::node: Executing [1m0xafad5bcb8b6a77b430f3621067bb9dc3ff88265bc6558956d111d02fd4247fc7[0m
+2023-12-13T18:58:09.635680Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.635698Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.635705Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.635713Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.635721Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.635729Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.635746Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:09.635753Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.635776Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.635784Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.635791Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.635813Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.635833Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.635847Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:09.636056Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:09.636378Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.636501Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.636528Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.638539Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:09.684448Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.684492Z  INFO era_test_node::node: Executing [1m0x63d42c5dbc32c9942eccd6f40f46c4ee861037c28c3d16a6922d10ff2310a5f0[0m
+2023-12-13T18:58:09.684524Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.687333Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.687370Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.687393Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.687421Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.687450Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.687481Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.687515Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:09.687543Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.687572Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.687600Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.687630Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.687673Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.687708Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.687736Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:09.687994Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009002
+2023-12-13T18:58:09.688118Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.688154Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.778116Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.778153Z  INFO era_test_node::node: Executing [1m0x92ce4d5e79595a804699c9c5e8cef47860489b30544ef0e7b686b6743e4595a9[0m
+2023-12-13T18:58:09.780539Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.780563Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.780578Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.780609Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.780624Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.780644Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.780670Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:09.780690Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.780705Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.780723Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.780738Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.780766Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.780781Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.780802Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:09.781012Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:09.781280Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.781370Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.781395Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.783394Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:09.840425Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.840479Z  INFO era_test_node::node: Executing [1m0xedf4e422c0258f78195d5d77bb8424d9f590d8ee627d22e9d7928bc268123ec3[0m
+2023-12-13T18:58:09.840524Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.844099Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.844144Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.844174Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.844215Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.844239Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.844259Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.844285Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:09.844304Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.844318Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.844336Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.844350Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.844371Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.844387Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.844405Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:09.844653Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x000000000000000000000000000000000000000000000000000000000000900a
+2023-12-13T18:58:09.844829Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.844858Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.935488Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.935517Z  INFO era_test_node::node: Executing [1m0x99884e942bd699ce9cae331dd0755c5bea6305a54c5f05756cc9f8a6fb514bb1[0m
+2023-12-13T18:58:09.937849Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.937867Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.937875Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.937882Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.937890Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.937899Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.937909Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:09.937919Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.937926Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.937933Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.937945Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.937953Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.937960Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.937968Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:09.938171Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:09.938453Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:09.938551Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.938569Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.940605Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:09.973703Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.973725Z  INFO era_test_node::node: Executing [1m0x26aa9bb66176a99ccb23131756ec66f78262e06d22c923e207c3efb746f9bc8e[0m
+2023-12-13T18:58:09.973737Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.975477Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:09.975495Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:09.975502Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:09.975510Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:09.975518Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.975526Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:09.975539Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:09.975546Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:09.975554Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.975565Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:09.975572Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.975580Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:09.975604Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.975616Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:09.975819Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009005
+2023-12-13T18:58:09.975916Z  INFO era_test_node::node: 
+2023-12-13T18:58:09.975934Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.069652Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.069694Z  INFO era_test_node::node: Executing [1m0x6ec5b4d9f9b26c7371a25c9a8cd9b9c6b44fb3dc9e7fe7f245f4ce7331b877e0[0m
+2023-12-13T18:58:10.071874Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:10.071893Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:10.071900Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:10.071908Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:10.071915Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.071924Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.071936Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:10.071944Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:10.071951Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.071962Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:10.071971Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.071979Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:10.071989Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.071998Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:10.072216Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:10.072489Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.072584Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.072602Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.074650Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:10.107123Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.107146Z  INFO era_test_node::node: Executing [1m0xf42c968c2b0803d2c3c871ead8bf474bacc7c4d8ab0f8238ac111f30ca91d541[0m
+2023-12-13T18:58:10.107158Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:10.108899Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:10.108917Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:10.108924Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:10.108932Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:10.108940Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:10.108949Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:10.108973Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:10.108985Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:10.108995Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.109001Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:10.109010Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.109028Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:10.109037Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.109048Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:10.109248Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009009
+2023-12-13T18:58:10.109346Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.109363Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.208863Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.208896Z  INFO era_test_node::node: Executing [1m0x1414975cf8994b801e80ff60bbec8a98beb117b9a8fdbbdc256a221004c73a4d[0m
+2023-12-13T18:58:10.211065Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:10.211084Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:10.211091Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:10.211099Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:10.211106Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.211115Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.211128Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:10.211135Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:10.211143Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.211153Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:10.211161Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.211169Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:10.211179Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.211187Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:10.211408Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:10.211702Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.211810Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.211825Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.213883Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:10.246184Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.246209Z  INFO era_test_node::node: Executing [1m0x63187c96ff9c02ef8be8ec71a933668dce15db6fbee137381a67829c0ace6101[0m
+2023-12-13T18:58:10.246221Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:10.248043Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:10.248061Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:10.248068Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:10.248076Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:10.248085Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:10.248096Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:10.248106Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:10.248116Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:10.248125Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.248133Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:10.248143Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.248151Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:10.248159Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.248171Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:10.248369Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009001
+2023-12-13T18:58:10.248462Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.248477Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.254198Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000009001 was already impersonated
+2023-12-13T18:58:10.374869Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.374911Z  INFO era_test_node::node: Executing [1m0x94d431c70b7278c83846a58208c24d9bc799acd75c4ef0d73102133cbdd245ba[0m
+2023-12-13T18:58:10.378432Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:10.378457Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:10.378466Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:10.378477Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:10.378488Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.378502Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.378517Z  INFO era_test_node::node: Gas - Limit: 3_837_447 | Used: 2_644_894 | Refunded: 1_192_553
+2023-12-13T18:58:10.378528Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:10.378539Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.378547Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:10.378557Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.378570Z  INFO era_test_node::node: ==== [1m21 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:10.378579Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.378591Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:10.378861Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:10.379154Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.379297Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.379323Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.398904Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.398933Z  INFO era_test_node::node: Executing [1m0x4fe0a58272ae0ccce914a31ef48be1454a23de6e666e12ad181e871d1a06fd40[0m
+2023-12-13T18:58:10.403185Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:10.403212Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:10.403225Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:10.403238Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:10.403255Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.403267Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.403286Z  INFO era_test_node::node: Gas - Limit: 5_000_000 | Used: 1_628_585 | Refunded: 3_371_415
+2023-12-13T18:58:10.403301Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:10.403314Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.403329Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:10.403340Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.403358Z  INFO era_test_node::node: ==== [1m21 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:10.403370Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.403385Z  INFO era_test_node::node: ==== [1m4 events[0m
+2023-12-13T18:58:10.403613Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:10.404003Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x000000000000000000000000000000000000000000000000000000000000900a
+2023-12-13T18:58:10.404411Z  INFO era_test_node::formatter: [34m0x000000000000000000000000000000000000900a[0m 0xcb1adf6078c7bf960942056392cb515d1842e81cb4aaa15474852ce7108a9860
+2023-12-13T18:58:10.404976Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:10.405150Z  INFO era_test_node::node: 
+2023-12-13T18:58:10.405181Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.363802Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.363854Z  INFO era_test_node::node: Executing [1m0x5b4e563df1d95fb7a4a3b9f9626e38a93737b926360040786e84dd67b985c870[0m
+2023-12-13T18:58:42.368304Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:42.368335Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:42.368349Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:42.368365Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:42.368380Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.368395Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.368415Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:42.368433Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:42.368477Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.368495Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:42.368514Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.368535Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:42.368553Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.368569Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:42.368893Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:42.369287Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.369447Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.369496Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.373311Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:42.442369Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.442414Z  INFO era_test_node::node: Executing [1m0x5ab28cacfbda78abe4d39c57b5a39a856932d81d5fb30c9a2fad60d3a43b5958[0m
+2023-12-13T18:58:42.442437Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.445990Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:42.446018Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:42.446033Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:42.446049Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:42.446064Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.446082Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.446102Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:42.446120Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:42.446134Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.446148Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:42.446166Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.446181Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:42.446200Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.446215Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:42.446448Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009003
+2023-12-13T18:58:42.446569Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.446593Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.553971Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.554003Z  INFO era_test_node::node: Executing [1m0x3771bae7498c9cb9867dff9cb424ac1a7a1ba9879fda92c297fa20d5f6b469b3[0m
+2023-12-13T18:58:42.556274Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:42.556290Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:42.556297Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:42.556324Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:42.556331Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.556339Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.556348Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:42.556355Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:42.556362Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.556369Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:42.556376Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.556384Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:42.556391Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.556398Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:42.556975Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:42.557252Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.557348Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.557359Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.559586Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:42.623311Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.623355Z  INFO era_test_node::node: Executing [1m0x149a1cabe406f7174bfa9f6d100714780ca5b741dfb36872361edeb17593fa1d[0m
+2023-12-13T18:58:42.623378Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.627036Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:42.627065Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:42.627080Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:42.627095Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:42.627110Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.627127Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.627147Z  INFO era_test_node::node: Gas - Limit: 575_146 | Used: 575_146 | Refunded: 0
+2023-12-13T18:58:42.627166Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:42.627180Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.627198Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:42.627217Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.627237Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:42.627256Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.627275Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:42.627504Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009008
+2023-12-13T18:58:42.627677Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.627705Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.726167Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.726232Z  INFO era_test_node::node: Executing [1m0xe6fb6a1e19bb7a50a3bedcbf4d24081d434ca2017199ac6da23310db4297c2fa[0m
+2023-12-13T18:58:42.731501Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:42.731539Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:42.731556Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:42.731575Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:42.731594Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.731613Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.731641Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:42.731688Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:42.731712Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.731733Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:42.731766Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.731791Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:42.731820Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.731843Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:42.732094Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:42.732409Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.732579Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.732621Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.735694Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:42.797606Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.797630Z  INFO era_test_node::node: Executing [1m0xb39bfb3b22574165bab4c0a100ae95cd3331de33f664a005ddf17f10169aa24c[0m
+2023-12-13T18:58:42.797642Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.799393Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:42.799411Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:42.799418Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:42.799426Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:42.799433Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.799441Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.799450Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:42.799457Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:42.799464Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.799472Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:42.799480Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.799488Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:42.799520Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.799529Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:42.799785Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009004
+2023-12-13T18:58:42.799887Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.799897Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.874271Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.874299Z  INFO era_test_node::node: Executing [1m0x445c629420197ee218812d5eb73d9794c4b9a9ff37483481c0cbc17f2f969101[0m
+2023-12-13T18:58:42.876548Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:42.876569Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:42.876578Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:42.876586Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:42.876593Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.876601Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.876610Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:42.876617Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:42.876625Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.876633Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:42.876640Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.876648Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:42.876656Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.876676Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:42.876865Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:42.877149Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:42.877248Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.877261Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.879312Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:42.942169Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.942192Z  INFO era_test_node::node: Executing [1m0x63d42c5dbc32c9942eccd6f40f46c4ee861037c28c3d16a6922d10ff2310a5f0[0m
+2023-12-13T18:58:42.942203Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.943920Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:42.943938Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:42.943945Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:42.943953Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:42.943960Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.943979Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:42.943988Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:42.943996Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:42.944004Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.944010Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:42.944018Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.944026Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:42.944033Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.944042Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:42.944240Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009002
+2023-12-13T18:58:42.944343Z  INFO era_test_node::node: 
+2023-12-13T18:58:42.944353Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.018102Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.018130Z  INFO era_test_node::node: Executing [1m0xc3eb89b215ca45240f2678ff8c956a8126f3a2c8c667c444e4eec710215d1405[0m
+2023-12-13T18:58:43.020423Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:43.020442Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:43.020449Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:43.020457Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:43.020465Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.020473Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.020482Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:43.020489Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:43.020497Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.020505Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:43.020512Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.020520Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:43.020527Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.020535Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:43.020780Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:43.021063Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.021164Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.021178Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.023178Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:43.086645Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.086677Z  INFO era_test_node::node: Executing [1m0xedf4e422c0258f78195d5d77bb8424d9f590d8ee627d22e9d7928bc268123ec3[0m
+2023-12-13T18:58:43.086689Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.088392Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:43.088410Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:43.088417Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:43.088424Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:43.088432Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.088439Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.088448Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:43.088455Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:43.088462Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.088470Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:43.088478Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.088485Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:43.088493Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.088500Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:43.088737Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x000000000000000000000000000000000000000000000000000000000000900a
+2023-12-13T18:58:43.088847Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.088868Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.159889Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.159918Z  INFO era_test_node::node: Executing [1m0x6b7d2b452d87cf898bacd8ef06b948ba241a9d4c69a6eec5d4a21e16c642d74a[0m
+2023-12-13T18:58:43.162235Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:43.162253Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:43.162260Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:43.162268Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:43.162276Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.162283Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.162293Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:43.162300Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:43.162307Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.162315Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:43.162323Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.162330Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:43.162338Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.162345Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:43.162549Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:43.162772Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.162878Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.162900Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.164909Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:43.221386Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.221428Z  INFO era_test_node::node: Executing [1m0x26aa9bb66176a99ccb23131756ec66f78262e06d22c923e207c3efb746f9bc8e[0m
+2023-12-13T18:58:43.221452Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.224972Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:43.225003Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:43.225019Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:43.225035Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:43.225050Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.225068Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.225087Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:43.225106Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:43.225121Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.225137Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:43.225154Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.225172Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:43.225190Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.225206Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:43.225461Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009005
+2023-12-13T18:58:43.225578Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.225607Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.314952Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.314975Z  INFO era_test_node::node: Executing [1m0xefe53fde6b7d7a01854ed8d998bcfab58e117f826f1ac7879dca348babae0947[0m
+2023-12-13T18:58:43.317145Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:43.317163Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:43.317171Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:43.317178Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:43.317186Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.317193Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.317203Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:43.317210Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:43.317217Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.317225Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:43.317232Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.317240Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:43.317247Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.317255Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:43.317454Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:43.317788Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.317889Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.317909Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.319920Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:43.366412Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.366445Z  INFO era_test_node::node: Executing [1m0xf42c968c2b0803d2c3c871ead8bf474bacc7c4d8ab0f8238ac111f30ca91d541[0m
+2023-12-13T18:58:43.366462Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.369214Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:43.369240Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:43.369251Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:43.369263Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:43.369275Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.369288Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.369304Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:43.369316Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:43.369327Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.369341Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:43.369353Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.369369Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:43.369382Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.369397Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:43.369730Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009009
+2023-12-13T18:58:43.369877Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.369897Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.455711Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.455755Z  INFO era_test_node::node: Executing [1m0xfe8d55bc45e323a841d77141a428223d9a46d5ac711174f895d1f757ef10cc22[0m
+2023-12-13T18:58:43.457968Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:43.457987Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:43.457994Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:43.458002Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:43.458015Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.458026Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.458036Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T18:58:43.458047Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:43.458079Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.458087Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:43.458098Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.458107Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:43.458114Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.458126Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:43.458350Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:43.458567Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.458650Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.458677Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.460709Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T18:58:43.505912Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.505946Z  INFO era_test_node::node: Executing [1m0x63187c96ff9c02ef8be8ec71a933668dce15db6fbee137381a67829c0ace6101[0m
+2023-12-13T18:58:43.505965Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.508760Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:43.508785Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:43.508797Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:43.508809Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:43.508821Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.508833Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T18:58:43.508850Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T18:58:43.508862Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:43.508873Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.508888Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:43.508900Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.508916Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:43.508929Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.508944Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T18:58:43.509161Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009001
+2023-12-13T18:58:43.509270Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.509290Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.515259Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000009001 was already impersonated
+2023-12-13T18:58:43.629485Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.629510Z  INFO era_test_node::node: Executing [1m0x09a40707277e5de9df9c07de17203effa4f5229e67a3ec59a08955eab2732ebc[0m
+2023-12-13T18:58:43.632109Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:43.632140Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:43.632147Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:43.632155Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:43.632162Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.632170Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.632179Z  INFO era_test_node::node: Gas - Limit: 2_811_995 | Used: 1_949_222 | Refunded: 862_773
+2023-12-13T18:58:43.632186Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:43.632193Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.632201Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:43.632208Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.632216Z  INFO era_test_node::node: ==== [1m21 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:43.632224Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.632231Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T18:58:43.632433Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:43.632735Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.632847Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.632858Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.652715Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.652764Z  INFO era_test_node::node: Executing [1m0x5b79fe1eb786221cefc5e14db425d69117621dac85326a2222edd3c56e322c63[0m
+2023-12-13T18:58:43.658040Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T18:58:43.658073Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T18:58:43.658087Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T18:58:43.658103Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T18:58:43.658118Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.658140Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.658167Z  INFO era_test_node::node: Gas - Limit: 5_000_000 | Used: 1_546_985 | Refunded: 3_453_015
+2023-12-13T18:58:43.658190Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T18:58:43.658209Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.658228Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T18:58:43.658247Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.658269Z  INFO era_test_node::node: ==== [1m21 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T18:58:43.658288Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.658309Z  INFO era_test_node::node: ==== [1m4 events[0m
+2023-12-13T18:58:43.658537Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T18:58:43.658804Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x000000000000000000000000000000000000000000000000000000000000900a
+2023-12-13T18:58:43.659101Z  INFO era_test_node::formatter: [34m0x000000000000000000000000000000000000900a[0m 0xcb1adf6078c7bf960942056392cb515d1842e81cb4aaa15474852ce7108a9860
+2023-12-13T18:58:43.659322Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T18:58:43.659423Z  INFO era_test_node::node: 
+2023-12-13T18:58:43.659449Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.492864Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.492925Z  INFO era_test_node::node: Executing [1m0x2518774bdfbd0fdf54c97fd522778a8a2399c9b3f2f1a03d450a5e33296cfd35[0m
+2023-12-13T19:03:47.497394Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:47.497425Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:47.497440Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:47.497456Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:47.497472Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:47.497487Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:47.497506Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T19:03:47.497520Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:47.497533Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.497546Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:47.497560Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.497576Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:47.497589Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.497604Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T19:03:47.497868Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:03:47.498252Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:47.498407Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.498435Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.501939Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T19:03:47.572493Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.572536Z  INFO era_test_node::node: Executing [1m0x5ab28cacfbda78abe4d39c57b5a39a856932d81d5fb30c9a2fad60d3a43b5958[0m
+2023-12-13T19:03:47.572559Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:47.576098Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:47.576128Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:47.576142Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:47.576157Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:47.576173Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:47.576216Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:47.576236Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T19:03:47.576250Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:47.576263Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.576277Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:47.576290Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.576306Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:47.576320Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.576334Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T19:03:47.576512Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009003
+2023-12-13T19:03:47.576608Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.576636Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.682045Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.682082Z  INFO era_test_node::node: Executing [1m0xb167362b30d5f55bbf2cac9063ff641af1fbaa68e08eff12d0111391f4086172[0m
+2023-12-13T19:03:47.684500Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:47.684519Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:47.684526Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:47.684534Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:47.684541Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:47.684549Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:47.684559Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T19:03:47.684566Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:47.684574Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.684581Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:47.684588Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.684596Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:47.684603Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.684611Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T19:03:47.684830Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:03:47.685177Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:47.685300Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.685317Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.687857Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T19:03:47.748521Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.748564Z  INFO era_test_node::node: Executing [1m0x149a1cabe406f7174bfa9f6d100714780ca5b741dfb36872361edeb17593fa1d[0m
+2023-12-13T19:03:47.748587Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:47.752270Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:47.752302Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:47.752317Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:47.752332Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:47.752348Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:47.752363Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:47.752383Z  INFO era_test_node::node: Gas - Limit: 575_146 | Used: 575_146 | Refunded: 0
+2023-12-13T19:03:47.752397Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:47.752410Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.752424Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:47.752438Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.752454Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:47.752468Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.752483Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T19:03:47.752702Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009008
+2023-12-13T19:03:47.752816Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.752844Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.853340Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.853373Z  INFO era_test_node::node: Executing [1m0xefe68f9c0bf9f9c7760979e989bd43396b9bb97f6731fc4f6926b41c0a7ad103[0m
+2023-12-13T19:03:47.855568Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:47.855587Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:47.855594Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:47.855602Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:47.855610Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:47.855617Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:47.855627Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T19:03:47.855634Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:47.855640Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.855647Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:47.855654Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.855680Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:47.855687Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.855694Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T19:03:47.856176Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:03:47.856538Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:47.856752Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.856768Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.858770Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T19:03:47.906789Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.906824Z  INFO era_test_node::node: Executing [1m0xb39bfb3b22574165bab4c0a100ae95cd3331de33f664a005ddf17f10169aa24c[0m
+2023-12-13T19:03:47.906843Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:47.909581Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:47.909607Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:47.909618Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:47.909631Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:47.909643Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:47.909655Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:47.909692Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T19:03:47.909704Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:47.909714Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.909725Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:47.909736Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.909749Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:47.909760Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.909772Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T19:03:47.909973Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009004
+2023-12-13T19:03:47.910095Z  INFO era_test_node::node: 
+2023-12-13T19:03:47.910121Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.009059Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.009088Z  INFO era_test_node::node: Executing [1m0x8aeedba8dd16ba8d2cac8933cf211fc9102adefc1685b9f5b9a33075184c262f[0m
+2023-12-13T19:03:48.011293Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.011312Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.011319Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.011327Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.011335Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.011342Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.011352Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T19:03:48.011359Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.011365Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.011372Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.011379Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.011387Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.011394Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.011401Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T19:03:48.011622Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:03:48.012004Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.012130Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.012145Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.014158Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T19:03:48.070850Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.070892Z  INFO era_test_node::node: Executing [1m0x63d42c5dbc32c9942eccd6f40f46c4ee861037c28c3d16a6922d10ff2310a5f0[0m
+2023-12-13T19:03:48.070915Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.074442Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.074472Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.074487Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.074503Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.074518Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.074536Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.074555Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T19:03:48.074574Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.074589Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.074606Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.074621Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.074641Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.074686Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.074707Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T19:03:48.074888Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009002
+2023-12-13T19:03:48.075001Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.075024Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.169498Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.169536Z  INFO era_test_node::node: Executing [1m0xfe700ca7d342839934efa681a31fe027a42868e92e6b5d3204627c609b102bc2[0m
+2023-12-13T19:03:48.171910Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.171929Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.171936Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.171944Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.171952Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.171959Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.171969Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T19:03:48.171976Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.172002Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.172009Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.172017Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.172025Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.172038Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.172045Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T19:03:48.172234Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:03:48.172584Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.172741Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.172758Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.174734Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T19:03:48.230988Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.231029Z  INFO era_test_node::node: Executing [1m0xedf4e422c0258f78195d5d77bb8424d9f590d8ee627d22e9d7928bc268123ec3[0m
+2023-12-13T19:03:48.231053Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.234569Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.234599Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.234614Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.234630Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.234646Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.234691Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.234711Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T19:03:48.234726Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.234739Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.234753Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.234767Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.234783Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.234797Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.234811Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T19:03:48.234990Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x000000000000000000000000000000000000000000000000000000000000900a
+2023-12-13T19:03:48.235103Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.235129Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.324947Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.324980Z  INFO era_test_node::node: Executing [1m0xc04d9faa1b1d151dd063f61f2131b9d22cc2460ee22dfc8a0d42208ed4ffbd81[0m
+2023-12-13T19:03:48.327224Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.327245Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.327269Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.327277Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.327284Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.327292Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.327302Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T19:03:48.327310Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.327317Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.327325Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.327333Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.327341Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.327353Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.327360Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T19:03:48.327557Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:03:48.327922Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.328052Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.328067Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.330095Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T19:03:48.363032Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.363057Z  INFO era_test_node::node: Executing [1m0x26aa9bb66176a99ccb23131756ec66f78262e06d22c923e207c3efb746f9bc8e[0m
+2023-12-13T19:03:48.363072Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.364840Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.364858Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.364865Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.364873Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.364880Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.364888Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.364898Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T19:03:48.364905Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.364912Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.364920Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.364927Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.364935Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.364942Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.364950Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T19:03:48.365143Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009005
+2023-12-13T19:03:48.365291Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.365305Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.457729Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.457760Z  INFO era_test_node::node: Executing [1m0x570870a131687d29d23f23dc207fe53462d98ba149136c368a2b627c423f7f10[0m
+2023-12-13T19:03:48.460055Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.460073Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.460081Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.460088Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.460096Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.460104Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.460113Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T19:03:48.460120Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.460127Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.460134Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.460141Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.460149Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.460157Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.460166Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T19:03:48.460857Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:03:48.461164Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.461277Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.461291Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.463343Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T19:03:48.509156Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.509191Z  INFO era_test_node::node: Executing [1m0xf42c968c2b0803d2c3c871ead8bf474bacc7c4d8ab0f8238ac111f30ca91d541[0m
+2023-12-13T19:03:48.509208Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.511966Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.511991Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.512002Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.512014Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.512027Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.512039Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.512057Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T19:03:48.512070Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.512088Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.512099Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.512114Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.512162Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.512179Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.512195Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T19:03:48.512412Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009009
+2023-12-13T19:03:48.512531Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.512553Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.600367Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.600404Z  INFO era_test_node::node: Executing [1m0x09fe40907614b8fbd2111bb27a84e23ef266e124ee63d5fd1df1e008208e45cc[0m
+2023-12-13T19:03:48.602693Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.602712Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.602720Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.602728Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.602736Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.602744Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.602754Z  INFO era_test_node::node: Gas - Limit: 812_390 | Used: 581_691 | Refunded: 230_699
+2023-12-13T19:03:48.602762Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.602770Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.602778Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.602785Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.602794Z  INFO era_test_node::node: ==== [1m20 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.602801Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.602817Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T19:03:48.603101Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:03:48.603413Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.603533Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.603548Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.605496Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000008006 was already impersonated
+2023-12-13T19:03:48.651346Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.651381Z  INFO era_test_node::node: Executing [1m0x63187c96ff9c02ef8be8ec71a933668dce15db6fbee137381a67829c0ace6101[0m
+2023-12-13T19:03:48.651399Z  INFO era_test_node::node: 🕵️ Executing tx from impersonated account 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.654157Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.654184Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.654195Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.654208Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.654220Z  INFO era_test_node::node: Initiator: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.654255Z  INFO era_test_node::node: Payer: 0x0000000000000000000000000000000000008006
+2023-12-13T19:03:48.654271Z  INFO era_test_node::node: Gas - Limit: 534_680 | Used: 534_680 | Refunded: 0
+2023-12-13T19:03:48.654288Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.654308Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.654342Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.654359Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.654377Z  INFO era_test_node::node: ==== [1m10 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.654389Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.654406Z  INFO era_test_node::node: ==== [1m1 events[0m
+2023-12-13T19:03:48.654701Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x01000179e05cb52cfc180b3b577d62a55bbd902aa118dca1ae634d20a883a34a, 0x0000000000000000000000000000000000000000000000000000000000009001
+2023-12-13T19:03:48.654840Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.654865Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.661076Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000009001 was already impersonated
+2023-12-13T19:03:48.770805Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.770838Z  INFO era_test_node::node: Executing [1m0xf263045bbe93bcc93e4a02c04597526b23d8d38180dce0cd84b497c187dd6827[0m
+2023-12-13T19:03:48.773508Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.773528Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.773535Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.773543Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.773551Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.773559Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.773570Z  INFO era_test_node::node: Gas - Limit: 2_811_995 | Used: 1_949_222 | Refunded: 862_773
+2023-12-13T19:03:48.773577Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.773584Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.773592Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.773600Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.773607Z  INFO era_test_node::node: ==== [1m21 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.773616Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.773624Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T19:03:48.773849Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:03:48.774294Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.774417Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.774442Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.796400Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.796435Z  INFO era_test_node::node: Executing [1m0x868be8cf383bfcaa7967ee779f42646bddebfe95fbb09794819e2f504ef47a99[0m
+2023-12-13T19:03:48.800269Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:03:48.800341Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:03:48.800369Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:03:48.800396Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:03:48.800428Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.800461Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.800499Z  INFO era_test_node::node: Gas - Limit: 5_000_000 | Used: 1_546_985 | Refunded: 3_453_015
+2023-12-13T19:03:48.800533Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:03:48.800559Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.800596Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:03:48.800629Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.800687Z  INFO era_test_node::node: ==== [1m21 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:03:48.800718Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.800743Z  INFO era_test_node::node: ==== [1m4 events[0m
+2023-12-13T19:03:48.800973Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:03:48.801261Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x000000000000000000000000000000000000000000000000000000000000900a
+2023-12-13T19:03:48.801466Z  INFO era_test_node::formatter: [34m0x000000000000000000000000000000000000900a[0m 0xcb1adf6078c7bf960942056392cb515d1842e81cb4aaa15474852ce7108a9860
+2023-12-13T19:03:48.801768Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:03:48.801888Z  INFO era_test_node::node: 
+2023-12-13T19:03:48.801924Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.657452Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.657492Z  INFO era_test_node::node: Executing [1m0x6703328c1a5e08da0bb39a888c2914dcc516b8064a98fe66f0206aaea0f4bfd5[0m
+2023-12-13T19:04:42.668972Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:04:42.668990Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:04:42.668997Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:04:42.669005Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:04:42.669012Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:04:42.669020Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:04:42.669031Z  INFO era_test_node::node: Gas - Limit: 44_415_964 | Used: 36_183_343 | Refunded: 8_232_621
+2023-12-13T19:04:42.669038Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:04:42.669045Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.669051Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:04:42.669059Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.669067Z  INFO era_test_node::node: ==== [1m22 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:04:42.669075Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.669082Z  INFO era_test_node::node: ==== [1m6 events[0m
+2023-12-13T19:04:42.669926Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:04:42.670261Z  INFO era_test_node::formatter: [34mL1 messenger                              [0m 0x27fe8c0b49f49507b9d4fe5968c9f49edfe5c9df277d433a07a0717ede97638d
+2023-12-13T19:04:42.670495Z  INFO era_test_node::formatter: [34mL1 messenger                              [0m 0x3a36e47291f4201faf137fab081d92295bce2d53be2c6ca68ba82c7faa9ce241, 0x000000000000000000000000000000000000000000000000000000000000800e, 0xc5dced290757c03fc7cc37e6343039e0b6a5902bf2f41bdd68062f54274497cd
+2023-12-13T19:04:42.670726Z  INFO era_test_node::formatter: [34mKnown code storage                        [0m 0xc94722ff13eacf53547c4741dab5228353a05938ffcdd5d4a2d533ae0e618287, 0x0100015f06c651b1ac72134e94b82815f3a486b9088183c04a22144544d728d5, 0x0000000000000000000000000000000000000000000000000000000000000000
+2023-12-13T19:04:42.671023Z  INFO era_test_node::formatter: [34mL2 deployer                               [0m 0x290afdae231a3fc0bbae8b1af63698b0a1d79b21ad17df0342dfb952fe74f8e5, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0100015f06c651b1ac72134e94b82815f3a486b9088183c04a22144544d728d5, 0x000000000000000000000000111c3e89ce80e62ee88318c2804920d4c96f92bb
+2023-12-13T19:04:42.671244Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:04:42.671328Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.671340Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.709735Z  INFO era_test_node::hardhat: 🕵️ Account 0x0000000000000000000000000000000000009001 was already impersonated
+2023-12-13T19:04:42.826271Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.826301Z  INFO era_test_node::node: Executing [1m0x2c710b0785f6e1dde634324dec5d0143831f9210df35d70d374c3fd62085d83a[0m
+2023-12-13T19:04:42.829146Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:04:42.829162Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:04:42.829169Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:04:42.829177Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:04:42.829184Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:04:42.829192Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:04:42.829202Z  INFO era_test_node::node: Gas - Limit: 2_528_006 | Used: 940_484 | Refunded: 1_587_522
+2023-12-13T19:04:42.829209Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:04:42.829216Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.829223Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:04:42.829231Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.829239Z  INFO era_test_node::node: ==== [1m21 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:04:42.829246Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.829253Z  INFO era_test_node::node: ==== [1m2 events[0m
+2023-12-13T19:04:42.829456Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:04:42.829776Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:04:42.829902Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.829918Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.863803Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.863842Z  INFO era_test_node::node: Executing [1m0x13caa913db97c5257aa5f86d85ab89e399f3935941abf8e8f9dc1d00ec018e0f[0m
+2023-12-13T19:04:42.869334Z  INFO era_test_node::node: ┌─────────────────────────┐
+2023-12-13T19:04:42.869364Z  INFO era_test_node::node: │   TRANSACTION SUMMARY   │
+2023-12-13T19:04:42.869383Z  INFO era_test_node::node: └─────────────────────────┘
+2023-12-13T19:04:42.869403Z  INFO era_test_node::node: Transaction: [32mSUCCESS[0m
+2023-12-13T19:04:42.869419Z  INFO era_test_node::node: Initiator: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:04:42.869436Z  INFO era_test_node::node: Payer: 0x36615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:04:42.869461Z  INFO era_test_node::node: Gas - Limit: 5_000_000 | Used: 1_635_359 | Refunded: 3_364_641
+2023-12-13T19:04:42.869477Z  INFO era_test_node::node: Use --show-gas-details flag or call config_setShowGasDetails to display more info
+2023-12-13T19:04:42.869498Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.869513Z  INFO era_test_node::node: ==== Console logs: 
+2023-12-13T19:04:42.869529Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.869551Z  INFO era_test_node::node: ==== [1m21 call traces. [0m Use --show-calls flag or call config_setShowCalls to display more info.
+2023-12-13T19:04:42.869574Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.869594Z  INFO era_test_node::node: ==== [1m4 events[0m
+2023-12-13T19:04:42.869831Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000008001
+2023-12-13T19:04:42.870113Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x000000000000000000000000111c3e89ce80e62ee88318c2804920d4c96f92bb
+2023-12-13T19:04:42.870422Z  INFO era_test_node::formatter: [34m0x111c3e89ce80e62ee88318c2804920d4c96f92bb[0m 0x2717ead6b9200dd235aad468c9809ea400fe33ac69b5bfaa6d3e90fc922b6398, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049, 0x0000000000000000000000000000000000000000000000000000000000000000
+2023-12-13T19:04:42.870832Z  INFO era_test_node::formatter: [34mEthToken System Contract                  [0m 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, 0x0000000000000000000000000000000000000000000000000000000000008001, 0x00000000000000000000000036615cf349d7f6344891b1e7ca7c72883f5dc049
+2023-12-13T19:04:42.871125Z  INFO era_test_node::node: 
+2023-12-13T19:04:42.871175Z  INFO era_test_node::node: 
