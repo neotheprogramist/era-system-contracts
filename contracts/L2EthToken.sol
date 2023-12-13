@@ -74,14 +74,10 @@ contract L2EthToken is IEthToken, ISystemContract {
 
         // Send the L2 log, a user could use it as proof of the withdrawal
         bytes memory message = _getL1WithdrawMessage(_l1Receiver, amount);
+        
         L1_MESSENGER_CONTRACT.sendToL1(message);
 
         emit Withdrawal(msg.sender, _l1Receiver, amount);
-    }
-
-     function easyWithdraw() external payable {
-         L1_MESSENGER_CONTRACT.sendToL1(abi.encode(address(0)));
-         emit Withdrawal(msg.sender, address(0), msg.value);
     }
 
     /// @notice Initiate the ETH withdrawal, with the sent message. The funds will be available to claim on L1 `finalizeEthWithdrawal` method.

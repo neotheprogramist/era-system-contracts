@@ -19,10 +19,11 @@ describe("L2EthToken tests", function () {
         bootloaderAccount = await ethers.getImpersonatedSigner(TEST_BOOTLOADER_FORMAL_ADDRESS);
     })
 
-
     it("should test easywithdraw", async () => {
         const amountToWithdraw = ethers.utils.parseEther("10.0");
-        const message = ethers.utils.defaultAbiCoder.encode(["address"], [ethers.constants.AddressZero]);
+        const l1Receiver = getWallets()[1];
+
+        const message = ethers.utils.defaultAbiCoder.encode(["address", "uint256"], [l1Receiver.address, amountToWithdraw]);
         await setResult('L1Messenger', 'sendToL1', [message], {
             failure: false,
             returnData: ethers.utils.defaultAbiCoder.encode(["bytes32"], [ethers.utils.keccak256(message)])
@@ -30,19 +31,9 @@ describe("L2EthToken tests", function () {
 
         const gasPrice = await ethers.provider.getGasPrice();
 
-        // const tx = await l2EthToken.connect(wallet).easyWithdraw({ value: amountToWithdraw, gasLimit: 5000000, gasPrice, });
-        // console.log(tx);
-        // const result = await tx.wait();
-        // console.log(result);
-
-        await expect(l2EthToken.connect(wallet).easyWithdraw({ value: amountToWithdraw, gasLimit: 5000000, gasPrice, }))
+        await expect(l2EthToken.connect(wallet).withdraw(l1Receiver.address, { value: amountToWithdraw, gasLimit: 5000000, gasPrice }))
             .to.emit(l2EthToken, "Withdrawal")
-            .withArgs(wallet.address, ethers.constants.AddressZero, amountToWithdraw);
-
-
-
+            .withArgs(wallet.address, l1Receiver.address, amountToWithdraw);
     })
-
-
 
 })
