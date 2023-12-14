@@ -1,39 +1,195 @@
 import { expect } from "chai";
 import { ethers } from "hardhat";
-import { prepareEnvironment, setResult } from "./shared/mocks";
-import { Wallet } from "zksync-web3";
-import { L2EthToken, L2EthToken__factory } from "../typechain-types";
-import { TEST_BOOTLOADER_FORMAL_ADDRESS, TEST_ETH_TOKEN_SYSTEM_CONTRACT_ADDRESS } from "./shared/constants";
+import { Provider, Wallet } from "zksync-web3";
+import { L2EthToken__factory } from "../typechain-types";
+import type { L2EthToken } from "../typechain-types";
 import { deployContract, getWallets } from "./shared/utils";
+import * as hre from "hardhat";
+import type { BigNumber } from "ethers";
+import { TEST_BOOTLOADER_FORMAL_ADDRESS, TEST_ETH_TOKEN_SYSTEM_CONTRACT_ADDRESS } from "./shared/constants";
+import { prepareEnvironment, setResult } from "./shared/mocks";
 
-describe("L2EthToken tests", function () {
-    let wallet: Wallet;
-    let bootloaderAccount: ethers.Signer;
-    let l2EthToken: L2EthToken;
+describe("L2EthToken tests", () => {
+  let walletFrom: Wallet;
+  let walletTo: Wallet;
+  let anotherL2EthToken: L2EthToken;
+  let bootloaderAccount: ethers.Signer;
+  let l1Receiver: Wallet;
 
-    before(async () => {
-        wallet = (await getWallets())[0];
-        // await prepareEnvironment();
-        // l2EthToken = L2EthToken__factory.connect(TEST_ETH_TOKEN_SYSTEM_CONTRACT_ADDRESS, wallet);
-        l2EthToken = (await deployContract("L2EthToken")) as L2EthToken;
-        bootloaderAccount = await ethers.getImpersonatedSigner(TEST_BOOTLOADER_FORMAL_ADDRESS);
-    })
+  before(async () => {
+    await prepareEnvironment();
+    walletFrom = getWallets()[0];
+    walletTo = getWallets()[1];
+    l1Receiver = getWallets()[2];
+    anotherL2EthToken = (await deployContract("L2EthToken")) as L2EthToken;
+    bootloaderAccount = await ethers.getImpersonatedSigner(TEST_BOOTLOADER_FORMAL_ADDRESS);
+  });
 
-    it("should test easywithdraw", async () => {
-        const amountToWithdraw = ethers.utils.parseEther("10.0");
-        const l1Receiver = getWallets()[1];
+  it("withdraw", async () => {
+    const message: string = ethers.utils.defaultAbiCoder.encode(["address"], [l1Receiver.address]);
+    await setResult("L1Messenger", "sendToL1", [message], {
+      failure: false,
+      returnData: ethers.utils.defaultAbiCoder.encode(["bytes32"], [ethers.utils.keccak256(message)]),
+    });
 
-        const message = ethers.utils.defaultAbiCoder.encode(["address", "uint256"], [l1Receiver.address, amountToWithdraw]);
-        await setResult('L1Messenger', 'sendToL1', [message], {
-            failure: false,
-            returnData: ethers.utils.defaultAbiCoder.encode(["bytes32"], [ethers.utils.keccak256(message)])
-        });
+    const amountToWidthdraw: BigNumber = ethers.utils.parseEther("1.0");
+    const gasPrice: BigNumber = await ethers.provider.getGasPrice();
 
-        const gasPrice = await ethers.provider.getGasPrice();
+    const tx = await anotherL2EthToken
+      .connect(walletFrom)
+      .withdraw(l1Receiver.address, { value: amountToWidthdraw, gasLimit: 5000000, gasPrice })
+      .then((tx) => tx.wait());
 
-        await expect(l2EthToken.connect(wallet).withdraw(l1Receiver.address, { value: amountToWithdraw, gasLimit: 5000000, gasPrice }))
-            .to.emit(l2EthToken, "Withdrawal")
-            .withArgs(wallet.address, l1Receiver.address, amountToWithdraw);
-    })
+    await expect(tx)
+      .to.emit(anotherL2EthToken, "Withdrawal")
+      .withArgs(walletFrom.address, l1Receiver.address, amountToWidthdraw);
+  });
 
-})
+  it("withdraw2", async () => {
+    const message: string = ethers.utils.defaultAbiCoder.encode(["address"], [l1Receiver.address]);
+    await setResult("L1Messenger", "sendToL1", [message], {
+      failure: false,
+      returnData: ethers.utils.defaultAbiCoder.encode(["bytes32"], [ethers.utils.keccak256(message)]),
+    });
+
+    const amountToWidthdraw: BigNumber = ethers.utils.parseEther("1.0");
+    const gasPrice: BigNumber = await ethers.provider.getGasPrice();
+    await expect(
+      await anotherL2EthToken
+        .connect(walletFrom)
+        .withdraw(l1Receiver.address, { value: amountToWidthdraw, gasLimit: 5000000, gasPrice })
+        .then((tx) => tx.wait())
+    )
+      .to.emit(anotherL2EthToken, "XD")
+      .withArgs(walletFrom.address, l1Receiver.address, amountToWidthdraw);
+  });
+
+  it("withdrawWithMessage", async () => {
+    const additionalData: string = ethers.utils.defaultAbiCoder.encode(["string"], ["additional data"]);
+    const message: string = ethers.utils.defaultAbiCoder.encode(
+      ["address", "bytes"],
+      [l1Receiver.address, additionalData]
+    );
+    await setResult("L1Messenger", "sendToL1", [message], {
+      failure: false,
+      returnData: ethers.utils.defaultAbiCoder.encode(["bytes32"], [ethers.utils.keccak256(message)]),
+    });
+
+    const amountToWithdraw: BigNumber = ethers.utils.parseEther("1.0");
+    const gasPrice: BigNumber = await ethers.provider.getGasPrice();
+    await expect(
+      await anotherL2EthToken
+        .connect(walletFrom)
+        .withdrawWithMessage(l1Receiver.address, additionalData, {
+          value: amountToWithdraw,
+          gasLimit: 5000000,
+          gasPrice,
+        })
+        .then((tx) => tx.wait())
+    )
+      .to.emit(anotherL2EthToken, "WithdrawalWithMessage")
+      .withArgs(walletFrom.address, l1Receiver.address, amountToWithdraw, additionalData);
+  });
+
+  it("mint", async () => {
+    const initialSupply: BigNumber = await anotherL2EthToken.totalSupply();
+    const initialBalanceOfWallet: BigNumber = await anotherL2EthToken.balanceOf(walletFrom.address);
+    const amountToMint: BigNumber = ethers.utils.parseEther("10.0");
+
+    await expect(
+      await anotherL2EthToken
+        .connect(bootloaderAccount)
+        .mint(walletFrom.address, amountToMint)
+        .then((tx) => tx.wait())
+    )
+      .to.emit(anotherL2EthToken, "Mint")
+      .withArgs(walletFrom.address, amountToMint);
+
+    const finalSupply: BigNumber = await anotherL2EthToken.totalSupply();
+    const balanceOfWallet: BigNumber = await anotherL2EthToken.balanceOf(walletFrom.address);
+
+    expect(finalSupply).to.equal(initialSupply.add(amountToMint));
+    expect(balanceOfWallet).to.equal(initialBalanceOfWallet.add(amountToMint));
+  });
+
+  it("transfer successfully", async () => {
+    await anotherL2EthToken.connect(bootloaderAccount).mint(walletFrom.address, ethers.utils.parseEther("100.0"));
+
+    const senderBalandeBeforeTransfer: BigNumber = await anotherL2EthToken.balanceOf(walletFrom.address);
+    const recipientBalanceBeforeTransfer: BigNumber = await anotherL2EthToken.balanceOf(walletTo.address);
+
+    const amountToTransfer = ethers.utils.parseEther("10.0");
+
+    const tx = await anotherL2EthToken
+      .connect(bootloaderAccount)
+      .transferFromTo(walletFrom.address, walletTo.address, amountToTransfer)
+      .then((tx) => tx.wait());
+
+
+
+    await expect(tx)
+      .to.emit(anotherL2EthToken, "Transfer")
+      .withArgs(walletFrom.address, walletTo.address, amountToTransfer);
+
+    const senderBalanceAfterTransfer: BigNumber = await anotherL2EthToken.balanceOf(walletFrom.address);
+    const recipientBalanceAfterTransfer: BigNumber = await anotherL2EthToken.balanceOf(walletTo.address);
+    expect(senderBalanceAfterTransfer).to.be.eq(senderBalandeBeforeTransfer.sub(amountToTransfer));
+    expect(recipientBalanceAfterTransfer).to.be.eq(recipientBalanceBeforeTransfer.add(amountToTransfer));
+  });
+
+  // it("transfer successfully", async () => {
+  //   await anotherL2EthToken.connect(bootloaderAccount).mint(walletFrom.address, ethers.utils.parseEther("100.0"));
+
+  //   const senderBalandeBeforeTransfer: BigNumber = await anotherL2EthToken.balanceOf(walletFrom.address);
+  //   const recipientBalanceBeforeTransfer: BigNumber = await anotherL2EthToken.balanceOf(walletTo.address);
+
+  //   const amountToTransfer = ethers.utils.parseEther("10.0");
+
+  //   await expect(
+  //     anotherL2EthToken
+  //       .connect(bootloaderAccount)
+  //       .transferFromTo(walletFrom.address, walletTo.address, amountToTransfer).then((tx) => tx.wait())
+  //   )
+  //     .to.emit(anotherL2EthToken, "Transfer")
+  //     .withArgs(walletFrom.address, walletTo.address, amountToTransfer);
+
+  //   const senderBalanceAfterTransfer: BigNumber = await anotherL2EthToken.balanceOf(walletFrom.address);
+  //   const recipientBalanceAfterTransfer: BigNumber = await anotherL2EthToken.balanceOf(walletTo.address);
+  //   expect(senderBalanceAfterTransfer).to.be.eq(senderBalandeBeforeTransfer.sub(amountToTransfer));
+  //   expect(recipientBalanceAfterTransfer).to.be.eq(recipientBalanceBeforeTransfer.add(amountToTransfer));
+  // });
+
+  it("no tranfser due to insufficient balance", async () => {
+    await anotherL2EthToken.connect(bootloaderAccount).mint(walletFrom.address, ethers.utils.parseEther("5.0"));
+    const amountToTransfer: BigNumber = ethers.utils.parseEther("100000000000000000.0");
+
+    await expect(
+      await anotherL2EthToken
+        .connect(bootloaderAccount)
+        .transferFromTo(walletFrom.address, walletTo.address, amountToTransfer)
+        .then((tx) => tx.wait())
+    ).to.be.rejectedWith("Transfer amount exceeds balance");
+  });
+
+  it("no transfer - require special access", async () => {
+    const provider: Provider = new Provider((hre.network.config as any).url);
+    const maliciousData = {
+      address: "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      privateKey: "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+    };
+    const maliciousWallet: Wallet = new Wallet(maliciousData.privateKey, provider);
+    await anotherL2EthToken
+      .connect(bootloaderAccount)
+      .mint(maliciousWallet.address, ethers.utils.parseEther("20.0"))
+      .then((tx) => tx.wait());
+
+    const amountToTransfer: BigNumber = ethers.utils.parseEther("20.0");
+
+    await expect(
+      await anotherL2EthToken
+        .connect(maliciousWallet)
+        .transferFromTo(maliciousWallet.address, walletTo.address, amountToTransfer)
+        .then((tx) => tx.wait())
+    ).to.be.rejectedWith("Only system contracts with special access can call this method");
+  });
+});
